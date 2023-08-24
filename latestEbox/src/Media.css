@@ -1,0 +1,182 @@
+/* @media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .card-body-user {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .pagination-main-div {
+    flex-direction: column-reverse;
+  }
+
+  .card-body-user {
+    text-align: center;
+  }
+} */
+
+@media only screen and (max-width: 600px) and (min-width: 375px) {
+
+  th {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 16px 22px !important;
+  }
+
+  /* Header */
+  .Header-style {
+    padding: 12px 12px;
+  }
+
+  .Header-style button {
+    padding: 0;
+  }
+
+  .headersearchtext {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  /* Body */
+  .PaddingTopOfThePage {
+    padding-top: 70px;
+  }
+
+  .PageCardWidth {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+
+  .RoleCardBody {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  .RoleCardBody div {
+    max-width: 100%;
+  }
+
+  .RolePageHeading {
+    padding: 15px 20px;
+  }
+
+  /* Add Grid */
+  .AddGrid {
+    padding: 20px 15px;
+  }
+
+  .AddInputDiv {
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .RomoveButton {
+    position: absolute;
+    right: -12px;
+    top: -16px;
+    border-radius: 100%;
+    padding: 5px;
+  }
+
+  .bottom-button button {
+    padding: 5px 10px;
+  }
+
+  .SaveButton,
+  .DeleteButton,
+  .SaveButton:hover {
+    padding: 5px 30px;
+  }
+
+  /* Filter */
+  .FilterFieldsMainDiv {
+    flex-direction: column;
+  }
+
+  .FilterFullDiv {
+    max-width: 100%;
+  }
+
+  .CheckBoxDiv {
+    display: flex;
+  }
+
+  .MaxWidth {
+    width: unset;
+    margin-right: 20px;
+  }
+
+  .filter-submit-buttons {
+    justify-content: space-between;
+  }
+
+  .user-filter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pagination-main-div {
+    flex-direction: column-reverse;
+  }
+
+  .left-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-button button,
+  .left-button a {
+    margin: 5px 0 0;
+    font-size: 9px;
+  }
+
+  .filter-submit-buttons button {
+    width: 100px;
+  }
+
+  .AddGridSubscription {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscription_quantity .subscription_quantity_div {
+    width: 50%;
+  }
+
+  .subscription_quantity h2 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .subscription_quantity span {
+    margin-left: 5px;
+  }
+
+  .subscription_quantity {
+    margin-top: 0;
+  }
+
+  .HeadingBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .PaymentHistoryList .ProgressMainDiv {
+    max-width: 300px;
+  }
+
+  .DropDownCheck {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+  }
+
+  .RoleCardButton {
+    padding: 0 0px 0 17px;
+  }
+}

@@ -1,0 +1,62 @@
+
+
+/* @media only screen and (max-width: 2560px) and (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: none;
+  }
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    padding-bottom: 16px;
+  }
+  .PageCardWidth {
+    padding-bottom: 16px;
+}
+}
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    padding-bottom: 16px;
+  }
+} */
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    padding-bottom: 16px;
+  }
+  .RoleCardBody {
+    padding: 25px 25px 0;
+  }
+
+  .RoleCardButton {
+    padding: 0 0px 0 16px;
+  }
+  .GridMargin {
+    margin: 0px 0 0 16px;
+  }
+  .UserPagePadding {
+    padding-bottom: 16px;
+  }
+  .MaxWidth {
+    width: unset;
+    margin: 0;
+  }
+  .AddInputDiv {
+    gap: 6px;
+  }
+  .RomoveButton {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .css-1oi2o91-MuiButtonBase-root-MuiButton-root {
+    min-width: 86px;
+  }
+  .HeadingBox {
+    gap: 10px;
+  }
+  .toggle-users-buttons button.right-last-btn {
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .pagination-main-div {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,184 @@
+/** @format */
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+html,
+body {
+	font-size: 100%;
+	background-color: #f7f7f9;
+	font-family: "Inter", sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+body a {
+	text-decoration: none;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	font-family: "Inter", sans-serif;
+}
+
+body img {
+	max-width: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #323648;
+	font-family: "Inter", sans-serif;
+}
+li {
+	list-style-type: none;
+}
+p {
+	margin: 0;
+	font-size: 17px;
+	line-height: 1.8em;
+	letter-spacing: 1px;
+	color: #707579;
+
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*-- //header --*/
+
+/*-- Login Page --*/
+.login-container {
+	width: 450px;
+	background: white;
+	margin: 0 auto;
+	color: rgba(76, 78, 100, 0.87);
+	transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	border-radius: 10px;
+	background-image: none;
+	overflow: hidden;
+	box-shadow: rgb(76 78 100 / 22%) 0px 2px 10px 0px;
+	z-index: 1;
+}
+
+.login-main {
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding: 1.25rem;
+}
+.MuiCardContent-root.card-content {
+	padding: 32px 28px;
+}
+
+.card-content h5 {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	margin-bottom: 8px;
+
+	letter-spacing: 0.18px;
+	color: rgba(76, 78, 100, 0.87);
+}
+
+.card-content p {
+	font-family: initial;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: rgba(76, 78, 100, 0.68);
+}
+.login-content {
+	padding: 24px 0;
+}
+p.form-error {
+	font-weight: 400;
+	font-size: 0.75rem;
+	line-height: 1.25;
+	letter-spacing: 0.4px;
+	text-align: left;
+	color: #ff4d49;
+	margin-top: 10px;
+}
+
+a.navbar-brand.logo {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	/* or 143% */
+	display: flex;
+	align-items: center;
+	text-align: right;
+	letter-spacing: 0.15px;
+
+	/* Light/Primary/Main */
+	color: #666cff;
+	opacity: 1;
+	text-decoration: none;
+}
+.submit-btn {
+	margin-top: 16px !important;
+	background-color: #666cff !important;
+}
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+	border-color: #666cff !important;
+	border-width: 2px;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+	color: #666cff !important;
+}
+.loginbg {
+	bottom: 10%;
+	right: 0;
+	width: 100%;
+
+	position: absolute;
+}
+header {
+	padding: 0 24px;
+}
+
+header .top-nav .css-hyum1k-MuiToolbar-root {
+	padding-left: 0;
+	padding-right: 0px;
+}
+
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
